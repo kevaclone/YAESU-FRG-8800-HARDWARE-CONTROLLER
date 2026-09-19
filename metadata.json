@@ -1,0 +1,6 @@
+{
+  "name": "Yaesu FRG-8800 CAT Controller",
+  "description": "CAT interface controller for the vintage Yaesu FRG-8800 communications receiver via USB/TTL serial",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

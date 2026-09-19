@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="lcd" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#71717a"/>
+      <stop offset="50%" stop-color="#d4d4d8"/>
+      <stop offset="100%" stop-color="#71717a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body Chassis -->
+  <rect x="24" y="24" width="464" height="464" rx="64" fill="url(#bg)" stroke="#27272a" stroke-width="8"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="48" y="56" width="416" height="12" rx="6" fill="#10b981"/>
+
+  <!-- Yaesu Logo & Title text -->
+  <text x="64" y="105" fill="#a1a1aa" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" letter-spacing="3">YAESU</text>
+  <text x="170" y="105" fill="#e4e4e7" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">COMMUNICATIONS RECEIVER</text>
+  <text x="448" y="105" text-anchor="end" fill="#34d399" font-family="monospace" font-size="18" font-weight="bold">FRG-8800</text>
+
+  <!-- LCD Screen Bezel -->
+  <rect x="56" y="130" width="400" height="180" rx="16" fill="#04120e" stroke="#134e4a" stroke-width="4"/>
+
+  <!-- LCD Glass Glow -->
+  <rect x="66" y="140" width="380" height="160" rx="10" fill="url(#lcd)"/>
+
+  <!-- LCD Frequency Display -->
+  <text x="88" y="172" fill="#34d399" font-family="monospace" font-size="16" font-weight="bold" letter-spacing="2">USB • CAT REMOTE ACTIVE</text>
+  <text x="88" y="240" fill="#a7f3d0" font-family="monospace" font-size="64" font-weight="900" letter-spacing="4">14.254.0</text>
+  <text x="395" y="240" fill="#34d399" font-family="monospace" font-size="28" font-weight="bold">MHz</text>
+
+  <!-- Signal Meter Bar inside LCD -->
+  <text x="88" y="280" fill="#6ee7b7" font-family="monospace" font-size="14" font-weight="bold">SIG [■■■■■■■■■□□□]</text>
+  <text x="410" y="280" text-anchor="end" fill="#34d399" font-family="monospace" font-size="14" font-weight="bold">S-9</text>
+
+  <!-- Dial Knob (Metallic) -->
+  <circle cx="160" cy="390" r="54" fill="url(#metal)" stroke="#3f3f46" stroke-width="4"/>
+  <circle cx="160" cy="390" r="44" fill="#18181b" stroke="#52525b" stroke-width="2"/>
+  <circle cx="160" cy="355" r="7" fill="#10b981"/>
+
+  <!-- Keypad Grid representation -->
+  <g fill="#27272a" stroke="#3f3f46" stroke-width="2" rx="4">
+    <rect x="250" y="340" width="40" height="28" rx="4"/>
+    <rect x="300" y="340" width="40" height="28" rx="4"/>
+    <rect x="350" y="340" width="40" height="28" rx="4"/>
+    <rect x="400" y="340" width="46" height="28" rx="4" fill="#065f46" stroke="#059669"/>
+
+    <rect x="250" y="380" width="40" height="28" rx="4"/>
+    <rect x="300" y="380" width="40" height="28" rx="4"/>
+    <rect x="350" y="380" width="40" height="28" rx="4"/>
+    <rect x="400" y="380" width="46" height="28" rx="4"/>
+
+    <rect x="250" y="420" width="40" height="28" rx="4"/>
+    <rect x="300" y="420" width="40" height="28" rx="4"/>
+    <rect x="350" y="420" width="40" height="28" rx="4"/>
+    <rect x="400" y="420" width="46" height="28" rx="4" fill="#047857" stroke="#10b981"/>
+  </g>
+</svg>
